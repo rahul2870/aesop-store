@@ -1,0 +1,116 @@
+#footer{
+    padding: 10vh 7vh;
+    background-color: #252525;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    gap: 35px;
+}
+
+.footer-div-one div:nth-child(1){
+    display: flex;
+    align-items: center;
+    color: white!important;
+    padding :8px;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 0.2em;
+}
+.footer-div-one div:nth-child(1) input{
+    border: none;
+    flex: 1; 
+    color: white!important;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+.footer-div-one div:nth-child(1) input::placeholder{
+    color: white;
+}
+.footer-div-one > div:nth-child(2){
+    display: flex;
+    gap: 7px;
+    margin-top: 20px;
+    color: white;
+}
+.footer-div-one div:nth-child(2) aside{
+    width: 18px;
+    height: 8px;
+    border: 1px solid white;
+    margin:4px;
+}
+.footer-div-one > div:nth-child(2) div p{
+    font-size: 0.85em;
+    margin-bottom: 20px;
+}
+.footer-div-one > div:nth-child(2) div h6{
+    font-size: 0.7em;
+    text-decoration: underline;
+}
+
+
+
+
+.footer-normal-div{
+    color: white;
+}
+.footer-normal-div h5{
+    border-bottom: 1px solid white;
+    padding-bottom: 22px;
+    font-size: 0.9em;
+}
+.footer-normal-div p{
+    font-size: 0.85em;
+    margin-top: 17px; 
+}
+
+
+#footer-bottom-most{
+    margin-top: 4px;
+    background-color: #252525;
+    padding: 30px 3vw;
+    color: white;
+}
+
+
+
+
+
+
+
+.for-sm{
+    display: block;
+}
+.for-lg{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #footer{
+        padding: 10vh 2vh;
+        background-color: #252525;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    } 
+    .footer-div-one{
+        grid-row: 1 / -1; 
+    }  
+     
+    .footer-normal-div h5{ 
+        padding-bottom: 13px; 
+        font-size: 0.8em;
+    }   
+    .footer-normal-div p{
+        font-size: 0.74em; 
+    }
+    .for-sm{
+        display: none;
+    }
+    .for-lg{
+        display: block;
+    }
+}

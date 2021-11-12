@@ -1,0 +1,39 @@
+ 
+
+#home-carousel{
+    padding: 26vh 0vw;
+    background-color: #FFFEF2;
+
+}
+
+.product-carousel{ 
+    text-align: center;
+    margin-bottom: 40px;
+}
+  .product-carousel img{
+      width: 100%; 
+      object-fit: cover;
+  }
+.product-carousel h5{ 
+    margin: 10px 0px;
+}
+.product-carousel p{
+    font-size: 0.8em;
+    margin: 10px 0px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    #home-carousel{
+        padding: 10vh 0vw; 
+    
+    } 
+
+}

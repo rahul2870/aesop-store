@@ -1,0 +1,89 @@
+#store-locator{
+    display: flex;
+    align-content: center;
+    padding: 20vh 0px 20vh 80px;
+    background-color: #FFFEF2;
+    gap: 10vw;
+}
+#store-locator-left{
+    flex: 1.8;  
+}
+#store-locator-left h2{
+    margin-bottom: 40px;
+    font-size: 1.9em;
+}
+#store-locator-left > p{
+    line-height:1.7em;
+    font-size: 0.9em;
+    padding-right: 20px;
+}
+
+
+#store-locator-left > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(163, 153, 153);
+    font-size: 0.95em;
+    font-weight: 900;
+    padding: 20px;
+    margin: 20px 0px; 
+    transition: background-color 0.2s linear;
+    width: 80%;
+}
+#store-locator-left > div:hover{
+    background-color: #333;
+    font-weight: 100;
+    color: white!important;
+    cursor: pointer; 
+}
+#store-locator-right{
+    flex: 4;
+}
+.store-locator-carousel img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #store-locator{
+        display: block;
+        padding: 4vh 20px 6vh 20px;
+    } 
+    #store-locator-left h2{
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+    #store-locator-left > p{
+        font-weight: 900;
+        margin-bottom: 20px;
+    } 
+    
+    #store-locator-left > div{ 
+        font-size: 0.9em;
+        font-weight: 900;
+        padding: 20px;
+        margin: 20px 0px;  
+    }
+    #store-locator-left > div:hover{
+        background-color: #333;
+        font-weight: 100;
+        color: white!important;
+        cursor: pointer; 
+    } 
+    .store-locator-carousel img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}

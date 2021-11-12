@@ -1,0 +1,46 @@
+.two-product-compos{
+    display: flex;
+    padding: 10vh 6vw;
+    gap: 20px;
+    background-color: #FFFEF2;
+}
+.two-product-compos div{
+    flex: 1;
+}
+.two-product-compos div img{
+    width: 100%;
+    object-fit: cover;
+}
+.two-product-compos div h4{
+    margin: 24px 0px;
+}
+.two-product-compos div p{
+    font-size: 0.9em;
+    line-height: 1.6em; 
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .two-product-compos{
+        display: block;
+        padding: 6vh 5vw; 
+    }
+    .two-product-compos div{
+        flex: 1;
+    }
+    .two-product-compos div img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .two-product-compos div h4{
+        margin: 15px 0px;
+    }
+    .two-product-compos div p{
+        margin-bottom: 40px;
+        font-weight: 900;
+        font-size: 0.8em;
+    }
+    
+}
